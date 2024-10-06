@@ -1,4 +1,4 @@
-# Assignment 1 - A Simple Containerized Web App
+# Assignment 2 - A Simple Containerized Web App
 
 This web app supports the following commands:
 
