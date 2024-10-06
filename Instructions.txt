@@ -1,0 +1,4 @@
+Repository: https://github.com/edward-le-coding/COMP4016---assignment2
+Image: edwardlecoding/comp4016-assignment2 (docker pull edwardlecoding/comp4016-assignment2:latest)
+Command: docker run -it -p 30000:30000 assignment2-edward-le
+Comment: See GitHub repo for endpoint information. Possible differences between command lines?
