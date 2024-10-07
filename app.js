@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var dotenv = require('dotenv');
-const myEnv = dotenv.config({ path: path.resolve(path.join(__dirname, '/configuration/.env')) });
+const myEnv = dotenv.config({ path: path.resolve(path.join(__dirname, '/config/.env')) });
 
 // Assignment 1 Paths
 var indexRouter = require('./routes/index');
