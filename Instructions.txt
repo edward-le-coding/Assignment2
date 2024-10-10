@@ -1,6 +1,6 @@
 Repository: https://github.com/edward-le-coding/COMP4016---assignment2
 Image: edwardlecoding/comp4016-assignment2 (docker pull edwardlecoding/comp4016-assignment2:latest)
-Command: kubectl apply -f kubernetes/assignment2.yaml (assuming there is a Kubernetes cluster available)
+Command: kubectl apply -f assignment2.yaml (assuming there is a Kubernetes cluster available)
 Comment: See GitHub repo for endpoint information. 
     Port forwarding may be required to achieve the endpoints in localhost format as requested in the assignment.
     1.) Get Pod ID: kubectl get pods --namespace=edwardlecoding 
