@@ -26,6 +26,7 @@ spec:
       protocol: TCP
       name: assignment2-port
       targetPort: 30000
+      nodePort: 30000
 ---
 apiVersion: v1
 kind: Secret
